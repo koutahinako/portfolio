@@ -6,12 +6,6 @@ body {
   color: #333;
 }
 
-  .hobby{
-    color: #87CEFA;
-    margin: 0 auto;
-    margin-top: 10px
-  }
-
 a {
   transition: opacity .3s;
   text-decoration: none;
@@ -207,13 +201,14 @@ li {
  Skill
 ---------------------------------*/
 .skill-list {
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin-bottom: -50px;
-  margin: auto;
 }
 
 .skill-item {
-  display: block;
+  display: flex;
   align-items: flex-start;
   justify-content: space-between;
   width: 48%;
@@ -344,6 +339,21 @@ li {
 
 .home-link {
   text-align: center;
+}
+
+.hobby{
+  color: #87CEFA;
+}
+
+
+.about-hobby{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.about-hobby p{
+  display: block;
+  margin-top: 8px;
 }
 
 /*media Queries 767
