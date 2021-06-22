@@ -164,13 +164,11 @@ li {
  Works
 ---------------------------------*/
 .works-list {
-  display: flex;
-  flex-wrap: wrap;
+  width: 100%;
   margin-bottom: -40px;
 }
 
 .works-item {
-  width: 100%;
   margin-right: 1.58730%;
   margin-bottom: 40px;
   color: #333;
