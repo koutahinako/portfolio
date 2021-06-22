@@ -6,6 +6,11 @@ body {
   color: #333;
 }
 
+  .hobby{
+    color: #87CEFA;
+    margin: auto;
+  }
+
 a {
   transition: opacity .3s;
   text-decoration: none;
@@ -201,14 +206,13 @@ li {
  Skill
 ---------------------------------*/
 .skill-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: block;
   margin-bottom: -50px;
+  margin: auto;
 }
 
 .skill-item {
-  display: flex;
+  display: block;
   align-items: flex-start;
   justify-content: space-between;
   width: 48%;
