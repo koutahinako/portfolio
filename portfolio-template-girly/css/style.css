@@ -347,13 +347,13 @@ li {
 
 
 .about-hobby{
-  width: 50%;
-  margin: 0 auto;
+  text-align: center;
 }
 
 .about-hobby p{
   display: block;
   margin-top: 8px;
+  text-align: center;
 }
 
 /*media Queries 767
