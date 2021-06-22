@@ -8,7 +8,8 @@ body {
 
   .hobby{
     color: #87CEFA;
-    margin: auto;
+    margin: 0 auto;
+    margin-top: 10px
   }
 
 a {
