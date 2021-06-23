@@ -169,6 +169,10 @@ li {
   margin-bottom: -40px;
 }
 
+.about-app{
+  font-family: normal !important;
+}
+
 .works-item {
   margin-right: 1.58730%;
   margin-bottom: 40px;
@@ -351,7 +355,7 @@ li {
 
 .about-hobby{
   text-align: center;
-  margin-top: 600px !important;
+  margin-top: 60px !important;
 }
 
 .about-hobby p{
@@ -449,10 +453,6 @@ li {
 
   .works-list {
     justify-content: space-between;
-  }
-  
-  .about-app{
-    font-family: normal !important;
   }
 
   .works-item {
