@@ -8,7 +8,33 @@
    # Global selectors
    # ================================================================= */
 
-/*?
+html {
+  box-sizing: border-box;
+  word-break: normal;
+  -moz-tab-size: 4;
+  tab-size: 4;
+
+  -webkit-text-size-adjust: 100%; /* Prevent adjustments of font size after orientation changes in iOS */
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+  background-repeat: no-repeat; /* Set `background-repeat: no-repeat` to all elements and pseudo elements */
+}
+
+::before,
+::after {
+  vertical-align: inherit;
+  text-decoration: inherit; /* Inherit text-decoration and vertical align to ::before and ::after pseudo elements */
+}
+
+* {
+  margin: 0;
+  padding: 0; /* Reset `padding` and `margin` of all elements */
+}
+
 /* # =================================================================
    # General elements
    # ================================================================= */
