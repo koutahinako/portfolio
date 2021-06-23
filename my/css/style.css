@@ -450,6 +450,10 @@ li {
   .works-list {
     justify-content: space-between;
   }
+  
+  .about-app{
+    font-family: normal !important;
+  }
 
   .works-item {
     flex: 0 0 48%;
